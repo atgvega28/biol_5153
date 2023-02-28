@@ -16,23 +16,23 @@ output: pdf_document
 * Currently learning Arduino (open-source platform used for building electronics projects) 
 * Exploring Python(high-level general purpose programming language), to build mechanistic models
 
-# EDUCATION
+## EDUCATION
 
 
-Doctor of Philosophy in Cell and Molecular Biology      | May 2025
+Doctor of Philosophy in Cell and Molecular Biology			| May 2025
  
 University of Arkansas, Fayetteville AR
 
-Bachelor of Science in Biomedical Engineering 		| Fall 2019
+Bachelor of Science in Biomedical Engineering				| Fall 2019
              
 University of Arkansas, Fayetteville, AR		
 
 ## EXPERIENCE
 
-### Graduate Assistant, Cell and Molecular Biology Program, Biomedical Engineering Deparment 
-### University of Arkansas | Fall 2021 - Present
+### Graduate Assistant,Cell and Molecular Biology Program, Biomedical Deparment 
+#### University of Arkansas | Fall 2021 - Present
 * Learning about cell-to-cell interactions to  model their behavior into a mechanistic models 
-* Using Pycharm to be able to better study potential drugs for tailored cancer treatments
+* Using Pycharm to better study potential drugs for tailored cancer treatments
 
 ### Venture Studio and Commercialization Analyst, Startup Junkie Consulting
 ### Fayetteville, AR | Fall 2022
@@ -52,7 +52,7 @@ University of Arkansas, Fayetteville, AR
 ## TEACHING EXPERIENCE
 
  
-### Teaching Assistant for Signals and Systems, Biomedical Engineering Department
+### Teaching Assistant for Signals and Systems, Biomedical Department
 #### University of Arkansas | Fall 2021
 * Assisted and collaborated with students by helping them to troubleshoot MATLAB scripts
 
@@ -61,7 +61,7 @@ University of Arkansas, Fayetteville, AR
 
 
 ### Customer Researcher, Food Insecurity Study, McMillon Innovation Studio 
-#### Fayetteville, AR | Fall 2018-Spring 2019 
+#### Fayetteville, AR | Fall 2018 - Spring 2019 
 
 * Worked in a diverse 9-person group, gathered information from supermarket shoppers 
 * Coordinated research for developing an app/website to improve people’s eating habits
@@ -70,7 +70,7 @@ University of Arkansas, Fayetteville, AR
 
 
 ### Farm Volunteer, Apple Seeds & Red Barn Farm
-#### Fayetteville, AR Bentonville, AR | Spring 2021-Summer 2021
+#### Fayetteville, AR Bentonville, AR | Spring 2021 - Summer 2021
 * Collaborated with weed management, helped prepare soil by spreading compost, and learned about best 
 * organic practices and cultivars in farming
 ### Fundraiser Chair, Panamanian Student Organization (PSO)
