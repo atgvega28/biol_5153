@@ -14,7 +14,7 @@ output: pdf_document
 
 * Familiar with Microsoft Office programs (e.g., PowerPoint, Excel, Word)
 * Currently learning Arduino (open-source platform used for building electronics projects) 
-* Exploring Python(high-level general purpose programming language)to build mechanistic models
+* Exploring Python(high-level general purpose programming language), to build mechanistic models
 
 # EDUCATION
 
@@ -35,7 +35,7 @@ University of Arkansas, Fayetteville, AR
 * Using Pycharm to be able to better study potential drugs for tailored cancer treatments
 
 ### Venture Studio and Commercialization Analyst, Startup Junkie Consulting
-
+### Fayetteville, AR | Fall 2022
 * Worked to solve some challenges from hospitals by identifying existing technologies 
 * Gathered research for different patents and served as a assistant for a health-tech hackathon
 
@@ -43,7 +43,7 @@ University of Arkansas, Fayetteville, AR
 
 
 ### Co-Investigator and Lab Technician, REU Grant, Biological Department
-### University of Arkansas | Summer 2017-Fall 2018                                                      
+#### University of Arkansas | Summer 2017 - Fall 2018                                                      
   
 * Determined a suitable way to minimize the loss of CNT when poured onto a PCL film
 * Created a blend of CNT/PCL mixture to elaborate hybrid films for promoting cell growth
@@ -52,17 +52,16 @@ University of Arkansas, Fayetteville, AR
 ## TEACHING EXPERIENCE
 
  
-### Teaching Assistant for Signals and Systems, Biomedical Engineering Department, University of 
-Arkansas | Fall 2021
-* Assisted and collaborated with juniors and seniors by helping them to troubleshoot MATLAB 
-   *scripts in their assignments
+### Teaching Assistant for Signals and Systems, Biomedical Engineering Department
+#### University of Arkansas | Fall 2021
+* Assisted and collaborated with students by helping them to troubleshoot MATLAB scripts
 
 
 ## ENGINEERING PROJECTS
 
 
 ### Customer Researcher, Food Insecurity Study, McMillon Innovation Studio 
-### Fayetteville, AR | Fall 2018-Spring 2019 
+#### Fayetteville, AR | Fall 2018-Spring 2019 
 
 * Worked in a diverse 9-person group, gathered information from supermarket shoppers 
 * Coordinated research for developing an app/website to improve people’s eating habits
@@ -70,11 +69,12 @@ Arkansas | Fall 2021
 ## LEADERSHIP SKILLS
 
 
-### Farm Volunteer, Apple Seeds & Red Barn Farm,
-### Fayetteville, AR Bentonville, AR | Spring 2021-Summer 2021
+### Farm Volunteer, Apple Seeds & Red Barn Farm
+#### Fayetteville, AR Bentonville, AR | Spring 2021-Summer 2021
 * Collaborated with weed management, helped prepare soil by spreading compost, and learned about best 
 * organic practices and cultivars in farming
-### Fundraiser Chair, Panamanian Student Organization (PSO), University of Arkansas | Fall 2018
+### Fundraiser Chair, Panamanian Student Organization (PSO)
+#### University of Arkansas | Fall 2018
 * Promoted diverse events and activities created by the organization (e.g., Mercado Latino) by raising 
 * donations
 * Proposed a project called “STEM in PTY” to help raise awareness of engineering and entrepreneurship in 
