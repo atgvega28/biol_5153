@@ -1,8 +1,3 @@
----
-title: 'VegaG_AlexandraT CV'
-output: pdf_document
----
-
 
 # ALEXANDRA TERESA GUTIERREZ VEGA
 ### Fayetteville, Arkansas
@@ -75,10 +70,8 @@ University of Arkansas, Fayetteville, AR
 * organic practices and cultivars in farming
 ### Fundraiser Chair, Panamanian Student Organization (PSO)
 #### University of Arkansas | Fall 2018
-* Promoted diverse events and activities created by the organization (e.g., Mercado Latino) by raising 
-* donations
-* Proposed a project called “STEM in PTY” to help raise awareness of engineering and entrepreneurship in 
-* Panama
+* Promoted diverse events and activities created by the organization by raising donations
+* Proposed “STEM in PTY” to help raise awareness of engineering and entrepreneurship in Panama
 
 ## AWARDS & CERTIFICATIONS
 
@@ -88,10 +81,7 @@ University of Arkansas, Fayetteville, AR
     Conference Fund Recipient | University of Arkansas, Fayetteville | Fall-2018-Spring 2019
     Research Experience Undergraduate Awardee, Document #89264 | University of Arkansas | Summer 2018
  
----
-title: 'VegaG_AlexandraT CV'
-output: pdf_document
----
+
 
 
 
