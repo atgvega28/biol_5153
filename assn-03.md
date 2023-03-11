@@ -26,7 +26,7 @@
 4. ``` rsync -av atg002@hpc-portal2.hpc.uark.edu:/storage/atg002/mt_genomes/ . ```
 
 5. *```0.060945 seconds.```
- *```none```
+ *```Cucurbita``` 
 
 
 
