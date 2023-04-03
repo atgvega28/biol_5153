@@ -4,4 +4,4 @@
 AHPCC, ran blast search with a SLURM script, and synchronized local and remote 
 folders.
 * ```write_pinnacle_slurm.py``` : Python script that prints to STDOUT a SLURM script for running jobs on the 
-Pinnacle Cluster with command line arguments that will be parse using argparse module
+Pinnacle Cluster with command line arguments using argparse module
