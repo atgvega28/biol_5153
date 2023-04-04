@@ -5,58 +5,51 @@
 import argparse
 
 # Creating ArgumentParser object
-parser = argparse.ArgumentParser(description = "The script creates a .slurm file \
-so it can be submitted to the cluster")
+parser = argparse.ArgumentParser(description = "The script creates a \
+SlURM file that can be submitted to the cluster")
 
 # add positional(required)arguments
-parser.add_argument("job_name", help = "Name of job", type= str)
+parser.add_argument("job_name", help = "Name of job", type = str)
 
-# Optional arguments
-# The default for 'store_true' is . . . "False"
-parser.add_argument('-q','--queue', help='Tells the queue to submit the job to(default=comp1)')
-parser.add_argument('-n','--nodes', help='Tells the number of nodes to run on(default=1)')
-parser.add_argument('-p','--processors', help='Tells the number of processors to use(default=1)')
-parser.add_argument('-t','--walltime', help='Tells the allotted number of hours/job(default= 01)')
+#  Adding optional arguments
+parser.add_argument("-q","--queue", help="Tells the queue to submit \
+	(comp01,comp06,comp72)",default='comp72',type=str)
+parser.add_argument("-n","--nodes", help="Tells the number of nodes,\
+	to run", default='1',type= int)
+parser.add_argument("-p","-num_processors", help="Tells the number of \
+	processors to request", default='24',type= int)
+parser.add_argument("-t","--walltime", help="Tells the length of,\ 
+	job", default='72', type=int)
 
-# parse the actual arguments
-# Access the argument values via "args" variable
+# Parse the actual arguments
+# Access argument values via 'args' variable 
 args = parser.parse_args()
 
-#Creating a Slurm script
+# print()
+#print SBATCH commands
+print('#SBATCH --job-name=' + args.job_name)
+print('#SBATCH --partition', args.queue)
+print('#SBATCH --nodes=' + str(args.num_nodes))
+print('#SBATCH --qos comp')
+print('#SBATCH --tasks-per-node=' + str(args.num_processors))
+print('#SBATCH --time=' + str(args.walltime) + ':00:00')
+print('#SBATCH -o atg002_%.out')
+print('#SBATCH -e atg002_%.err')
+print('#SBATCH --mail-type=ALL')
+print('#SBATCH --mail-user=atg002@uark.edu')
 
-batch_script =open(args.job_name + '.slurm','w')
-batch_script.write(#!/bin/bash\n\n)
-#SBATCH --job-name='+args.job_name + '\n\
-#SBATCH --partition')
 
-if args.queue:
-	batch_script.write(args.queue + '\n\')
-else:
-	batch_script.write('comp01'\n')
+print()
 
-batch_script.write('#SBATCH --nodes=')
-if args.nodes:
-	batch_script.write('32\n')
+#purge all the modules
+print('module purge')
 
-batch_script('#SBATCH --tasks-per-node=')
-if args.processors:
-	batch_script.write(args.processors + '\n')
-else:
-	batch_script.write('1\n')
+print()
 
-batch_script.write(#SBATCH--time=')
-if args.walltime:
-	batch_script.write(args.walltime + ':00:00\n')
-else:
-	batch_script.write('01:00:00\n')
+#cd into the submit directory
+print('cd $SLURM_SUBMIT_DIR')
 
-batch_script.write('#SBATCH -o' + args.job_name + '%.out\n\
-#SBATCH -e' + args.job_name + '%.err\n\
-#SBATCH --mail-type=ALL\n\
-#SBATCH --mail-user=atg002@uark.edu\n\n\
+print()
 
-cd $SLURM_SUBMIT_DIR\n\
-n\
-# job command here:'
-)
+print('# job command here')
 
