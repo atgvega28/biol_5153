@@ -2,7 +2,6 @@
 
 # import modules
 import argparse
-#import csv
 import csv
 
 # create an ArgumentParser object
@@ -18,16 +17,44 @@ parser.add_argument("fasta", help="Name of the FASTA file to parse", type=str)
 args = parser.parse_args()
 
 # Open the GFF file
-with open( args.gff) as fgen:
+with open( args.gff) as gff_file:
+
+
+	#create a csv reader object
+	reader = csv.reader(gff_file, delimiter='\t')
+
 
 
 	# loop over all the lines in the file
-	for line in fgen:
-		line.rstrip()
-		column =line.split('\t')
-		type_fea = column[2]
-		fea_ini = int(column[3])
-		fea_en = int(column[4])
-		fea_len	= fea_en - fea_ini + 1
-		print(type_fea, fea_len)
-	
+	for line in reader:
+
+		# skip blank lines
+		if not line:
+			continue
+
+		# else it's not a blank line
+		else:
+			# line = line.rstrip()
+			# print(line)
+			# split line on tab character
+			# column	= line.split('\t')
+		
+			# give variable names to the column
+			organism	= line[0]
+			source		= line[1]
+			feature_type	= line[2]
+			start		= int(line[3])
+			end		= int(line[4])
+			
+			# add the length to columns 5
+			line[5] =str(end - start + 1)
+
+			
+			length		= line[5]
+			strand		= line[6]
+			attributes	= line[8]
+			
+			new_line = "\t".join(line)		
+			print(new_line)
+		
+		
